@@ -1,0 +1,47 @@
+@charset "utf-8";
+
+:root {
+  --Primary-dark-color: #333;
+  --Primary-base-color: #f5f7fb;
+  --Primary-main-color: #0f374df9;
+  --Primary-accent-color: #f77c7c;
+  --Primary-border-color: #e6e6e6;
+}
+
+html {
+  color: var(--Primary-dark-color);
+  line-height: 1.75em;
+  letter-spacing: 0.125em;
+}
+
+body {
+  font-family: "游ゴシック体", "YuGothic", "游ゴシック", "Yu Gothic",
+  "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo",
+  sans-serif;
+  background-color: var(--Primary-base-color) ;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  letter-spacing: 0.135em;
+}
+
+input {
+  letter-spacing: 0.125em;
+  border: 1px solid var(--Primary-dark-color);
+}
+
+input:focus{
+  outline: none;
+  box-shadow: 0px 0px 1px 1px var(--Primary-dark-color) inset;
+  border-radius: 4px;
+}
+
+button {
+  text-align: center;
+  letter-spacing: 0.2em;
+  text-indent:0.2em;
+}

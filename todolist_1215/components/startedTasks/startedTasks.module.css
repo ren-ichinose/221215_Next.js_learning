@@ -1,0 +1,21 @@
+.section{
+  margin-bottom: 50px;
+  background-color: rgb(229, 240, 250);
+  padding: 50px;
+  border-radius: 10px;
+}
+
+.title{
+  font-size: 24px;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+  border-bottom: 2px solid rgb(255, 255, 255);
+}
+
+.btnWrapper{
+  margin-top: 10px;
+}
+
+.itemText{
+  margin-top: 30px;
+}

@@ -1,0 +1,41 @@
+@charset "utf-8";
+
+html {
+  font-size: 100%;
+}
+
+body {
+  font-family: "游ゴシック体", "YuGothic", "游ゴシック", "Yu Gothic",
+    "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo",
+    sans-serif;
+  color: #666;
+  letter-spacing: 0.1em;
+}
+
+h1, h2, h3, h4, h5 {
+  letter-spacing: 0.135em;
+}
+
+p {
+  line-height: 1.5em;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+input {
+  letter-spacing: 0.1em;
+}
+
+button {
+  letter-spacing: 0.25em;
+}

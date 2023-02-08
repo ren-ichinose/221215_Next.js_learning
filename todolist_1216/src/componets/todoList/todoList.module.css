@@ -1,0 +1,43 @@
+.todoListSction{
+  width: 800px;
+  margin: 0 auto;
+}
+
+.listItem{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+}
+
+.listItem:nth-child(n+2){
+  border-top: 1px solid #757575;
+}
+
+.btn{
+  width: 75px;
+  height: 38px;
+  color: #fff;
+  border-radius: 4px;
+  background-color: #555555;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover{
+  opacity: 0.8;
+}
+
+.complete{
+  margin-left: 15px;
+}
+
+/* .btnWrapper{
+
+} */
+
+.todo{
+  width: 550px;
+  text-align: justify;
+}
+

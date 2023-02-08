@@ -1,0 +1,36 @@
+.filter{
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid var(--Primary-border-color);
+}
+
+.listItem{
+  width: 70px;
+  height: 40px;
+  margin: 0px 5px 10px 5px;
+  background-color: #fff;
+  border: none;
+  transition: 0.1s;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.listItem:hover{
+  background-color: var(--Primary-main-color);
+  color: #fff;
+  transition: 0.2s;
+}
+
+.listItemRed{
+  width: 70px;
+  height: 40px;
+  margin: 0px 5px 10px 5px;
+  background-color: var(--Primary-accent-color);
+  color: #fff;
+  border: none;
+  transition: 0.1s;
+  border-radius: 4px;
+  cursor: pointer;
+}

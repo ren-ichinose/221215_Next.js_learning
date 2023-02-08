@@ -1,0 +1,7 @@
+.inputSction{
+  margin-top: 75px;
+}
+.inputInner{
+  display: flex;
+  justify-content: center;
+}
